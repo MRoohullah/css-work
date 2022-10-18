@@ -1,0 +1,39 @@
+/* - CSS Flexbox */
+body{
+    background-color: rgb(169, 255, 83);
+}
+.maindiv{
+    background-color:dodgerblue;
+    width: 1200px;
+    height: 600px;
+    border: 2px solid orange;
+    margin: 20px auto;
+    padding: 20px;
+    /* css flexbox */
+    display: flex;
+    /* flex-direction: column; */
+    /* flex-direction: column-reverse; */
+    /* flex-direction: row-reverse; */
+    /* flex-wrap: wrap; */
+    /* flex-wrap: wrap; */
+    /* flex-flow: wrap; */
+    /* justify-content: center;    */
+    /* justify-content: left; */
+    /* justify-content: end;    */
+    /* justify-content:right; */
+    /* align-items: flex-end;    */
+    /* justify-content: space-around; */
+    /* justify-content: space-around; */
+    /* justify-content: space-evenly; */
+
+}
+.div1,.div2,.div3,.div4{
+    background-color: brown;
+    color: white;
+    width: 300px ;
+    height: 400px;
+    font-size: 2rem;
+    font-weight: bold;
+    padding: 20px;
+    /* margin: 10px; */
+}
